@@ -4,6 +4,7 @@ jobs:
   test: 
     runs-on: ubuntu-latest
 
+    # defaults --> Ornek: Bu job icerisindeki butun run'lari belirlenmis working-directory icerisinde calistir.
     defaults:
       run:
         working-directory: "Code/02 Basics/02 Starting Project"
